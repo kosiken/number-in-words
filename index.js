@@ -223,7 +223,7 @@ function toWordsPromises (number, cb) {
     
 }
 
-console.log(toWords('9007199254740992'))
+
 
 module.exports = {toWords, nameNumber, toWordsPromises}
 
