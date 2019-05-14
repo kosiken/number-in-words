@@ -1,5 +1,5 @@
 
-# NUMBER IN WORDS ![build](https://travis-ci.org/kosiken/number-in-words.svg?branch=master)
+# NUMBER IN WORDS  ![build](https://travis-ci.org/kosiken/number-in-words.svg?branch=master)
 
 Just converts numbers from digits to words
 
