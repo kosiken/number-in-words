@@ -11,12 +11,4 @@ const {toWords} = require('number-in-words')
 toWords(100)
 // => one hundred 
 
-//or with promises
-
-const {toWordsPromises} = require('to-words')
-
-toWordsPromises(100).then(console.log)
-// => one hundred 
-
-
 ```
