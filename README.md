@@ -9,6 +9,6 @@ Just converts numbers from digits to words
 const {toWords} = require('number-in-words')
 
 toWords(100)
-// => one hundred 
+// => One Hundred 
 
 ```

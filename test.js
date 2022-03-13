@@ -1,9 +1,9 @@
 let {toWords, toWordsPromises} = require('./index') 
 const {expect, assert} = require('chai');
 describe('show number in words', function () {
-    it('it should be equal to one hundred and nine', function () {
+    it('it should be equal to One Hundred and Nine', function () {
         let ans = toWords(109)
-        expect(ans.trim()).to.be.equal('one hundred and nine')
+        expect(ans.trim()).to.be.equal('One Hundred and Nine')
     })
 } )
 
@@ -43,7 +43,7 @@ describe("Return a promise", function () {
             assert.isString(val)
           })
           .catch(err=> {
-
+            console.log(err)
             assert.isUndefined(err)
           })
       });
